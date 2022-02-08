@@ -1,0 +1,8 @@
+#post {
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+#post * {
+  padding: 10px;
+}

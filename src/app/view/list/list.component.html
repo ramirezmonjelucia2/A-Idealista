@@ -1,0 +1,5 @@
+<div id='list'>
+  <h1>LISTADO DE LAS VIVIENDAS</h1>
+
+  <app-post *ngFor="let post of listPosts" [post]="post" (click)="showTittle(post.title)"></app-post>
+</div>
